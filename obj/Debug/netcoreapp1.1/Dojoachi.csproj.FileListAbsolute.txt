@@ -1,0 +1,8 @@
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\bin\Debug\netcoreapp1.1\Dojoachi.deps.json
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\bin\Debug\netcoreapp1.1\Dojoachi.runtimeconfig.json
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\bin\Debug\netcoreapp1.1\Dojoachi.runtimeconfig.dev.json
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\bin\Debug\netcoreapp1.1\Dojoachi.dll
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\bin\Debug\netcoreapp1.1\Dojoachi.pdb
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\obj\Debug\netcoreapp1.1\Dojoachi.AssemblyInfo.cs
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\obj\Debug\netcoreapp1.1\Dojoachi.dll
+C:\Users\Jason\Documents\CodingDojo\Projects\C#\ASP_NET_Core1\Dojoachi\obj\Debug\netcoreapp1.1\Dojoachi.pdb

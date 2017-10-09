@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Dojoachi</title>
+		<link rel="stylesheet" href="~/css/Home.css"/>
+        <script
+            src="https://code.jquery.com/jquery-3.2.1.min.js"
+            integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+            crossorigin="anonymous"></script>
+        <meta name="description" content="Dojoachi">
+
+        </script>
+    </head>
+
+    <body>
+        <div class="container">
+            <h1>Dojoachi</h1>
+            
+            <div class="data">
+                <div class="stats">
+                    <p>Fullness: @ViewBag.Fullness</p>
+                    <p>Happiness: @ViewBag.Happiness</p>
+                    <p>Meals: @ViewBag.Meals</p>
+                    <p>Energy: @ViewBag.Energy</p>
+                </div>
+
+                <div class="display">
+                    <p>@ViewBag.Message</p>
+                </div>
+
+                <div class="button-display">
+                    @{
+                        if(ViewBag.GameStatus == "Continue" || ViewBag.GameStatus == "continue") {
+                    
+                        <div class="buttons">
+                            <form action="process" method="post">
+                                <br>
+                                <input type="hidden" name="activity" value="Feed" />
+                                <input type="submit" value="Feed"/>
+                            </form>
+                        </div>
+                        
+                        <div class="buttons">
+                            <form action="process" method="post">
+                                <input type="hidden" name="activity" value="Play" />
+                                <input type="submit" value="Play"/>
+                            </form>
+                        </div>
+                        
+                        <div class="buttons">
+                            <form action="process" method="post">
+                                <input type="hidden" name="activity" value="Work" />
+                                <input type="submit" value="Work"/>
+                            </form>
+                        </div>
+
+                        <div class="buttons">
+                            <form action="process" method="post">
+                                <input type="hidden" name="activity" value="Sleep" />
+                                <input type="submit" value="Sleep"/>
+                            </form>
+                        </div>
+                    }
+                    else {
+                        <div class="buttons">
+                            <form action="restart" method="post">
+                                <input type="hidden" name="activity" value="Restart" />
+                                <input type="submit" value="Restart?"/>
+                            </form>
+                        </div>
+                    }
+                }
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </body>
+</html>
